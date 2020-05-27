@@ -55,7 +55,7 @@ Before `plan` and `apply`, always clean up your code:
 * use [terraform fmt](https://www.terraform.io/docs/commands/fmt.html) to rewrite Terraform configuration files to a canonical format and style.
 * use [terraform validate](https://www.terraform.io/docs/commands/validate.html) to validate the configuration syntax and internal consistency
 * use [pre-commit](https://pre-commit.com) to run more checks
-  * community member [@antonbabenko/](https://github.com/antonbabenko/) built and maintains [pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform)
+  * community member [@antonbabenko](https://github.com/antonbabenko) built and maintains [pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform)
 
 ## Author Information
 
