@@ -1,6 +1,5 @@
 provider "docker" {
-  version = "~> 2.7"
-  host    = "unix:///var/run/docker.sock"
+  host = "unix:///var/run/docker.sock"
 
   //  registry_auth {
   //    address     = "registry.hub.docker.com"
