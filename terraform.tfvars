@@ -1,17 +1,17 @@
 image_name = "hashicraft/minecraft"
 
-// apply the `v1.12.2` value by running:
+// apply the `v1.16.4` value by running:
 // terraform plan -out="docker.tfplan"
 // terraform apply "docker.tfplan"
 //
 // when successful, experiment by changing
-// the value below from "v1.12.2" to "latest"
+// the value below from "v1.16.4" to "latest"
 // and then re-apply the changes by running:
 //
 // terraform plan -out="docker.tfplan"
 // terraform apply "docker.tfplan"
 // again
-image_tag = "v1.12.2"
+image_tag = "v1.16.4"
 
 minecraft_world_backup  = "https://git.io/Jfrmv"
 minecraft_mods_backup   = "https://git.io/Jfrm9"
